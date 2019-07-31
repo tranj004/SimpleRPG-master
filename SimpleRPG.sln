@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUI", "SimpleRPG\WPFUI.csproj", "{D07AC1D3-1FBE-471C-B06F-26F4C0F7D261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{146601EF-2AE0-4CEE-BD0E-541542C874E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEngine", "TestEngine\TestEngine.csproj", "{C4BBD0CC-7496-4CD4-ACF1-C3F306D7473E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07AC1D3-1FBE-471C-B06F-26F4C0F7D261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07AC1D3-1FBE-471C-B06F-26F4C0F7D261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07AC1D3-1FBE-471C-B06F-26F4C0F7D261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07AC1D3-1FBE-471C-B06F-26F4C0F7D261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146601EF-2AE0-4CEE-BD0E-541542C874E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146601EF-2AE0-4CEE-BD0E-541542C874E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146601EF-2AE0-4CEE-BD0E-541542C874E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146601EF-2AE0-4CEE-BD0E-541542C874E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BBD0CC-7496-4CD4-ACF1-C3F306D7473E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BBD0CC-7496-4CD4-ACF1-C3F306D7473E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BBD0CC-7496-4CD4-ACF1-C3F306D7473E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BBD0CC-7496-4CD4-ACF1-C3F306D7473E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {850C6CD0-0D15-4489-BC88-92637232EDF7}
+	EndGlobalSection
+EndGlobal
