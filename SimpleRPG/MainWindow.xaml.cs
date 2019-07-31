@@ -120,20 +120,14 @@ namespace WPFUI
         {
             foreach (object item in PlayerDataTabControl.Items)
             {
-                TabItem tabItem = item as TabItem;
-                if (tabItem != null)
+                if (item is TabItem tabItem)
                 {
-                    tabItem.IsSelected = true;
-                    return;
+                    if (tabItem.Name == tabName)
+                    {
+                        tabItem.IsSelected = true;
+                        return;
+                    }
                 }
-                //if (item is TabItem tabItem)
-                //{
-                //    if (tabItem.Name == tabName)
-                //    {
-                //        tabItem.IsSelected = true;
-                //        return;
-                //    }
-                //}
             }
         }
     }
